@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="orbit" x1="68" y1="91" x2="445" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22E6F0"/>
+      <stop offset=".5" stop-color="#087BFF"/>
+      <stop offset="1" stop-color="#20E4EF"/>
+    </linearGradient>
+    <linearGradient id="growth" x1="160" y1="373" x2="363" y2="143" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#087BFF"/>
+      <stop offset=".55" stop-color="#04B8F5"/>
+      <stop offset="1" stop-color="#21E5EE"/>
+    </linearGradient>
+  </defs>
+  <path d="M410 122C371 76 315 51 255 51 145 51 56 140 56 250c0 57 23 108 61 145" stroke="url(#orbit)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M125 411c36 31 82 50 132 50 110 0 199-89 199-199 0-25-5-49-13-71" stroke="url(#orbit)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M108 145h55l59 74-31 39-83-113Zm168 0h56l-92 113-31-39 67-74ZM191 239h44v115h-44z" fill="#F5FAFF"/>
+  <rect x="163" y="355" width="32" height="31" rx="3" fill="#22D7EA"/>
+  <rect x="206" y="337" width="32" height="49" rx="3" fill="#13BCEB"/>
+  <rect x="249" y="313" width="32" height="73" rx="3" fill="#087BFF"/>
+  <path d="m137 346 79-84 42 48 68-137-32-2 72-53 8 89-23-22-89 181-50-57-53 57-22-20Z" fill="url(#growth)"/>
+</svg>
